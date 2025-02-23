@@ -2,6 +2,8 @@
 
 ## Project Overview
 Placeholder: brief description of your research project, including the goals, hypotheses, and any relevant background information.
+Notes (to-do) rename the folders/ re upload with comments and attribution to Zihang - as supplemental
+Refrence main code for IO LMEs and data files in the main directory here
 
 ---
 
