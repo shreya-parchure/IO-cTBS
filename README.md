@@ -46,6 +46,8 @@ Placeholder: brief description of your research project, including the goals, hy
 - **Contributing:** Outline guidelines for contributing to the project, if applicable.
 - **License:** Specify the license under which the project is distributed.
 
+---
+
 ## Contact Information
 - **Author:** Provide your name and contact information for any inquiries related to the project.
 - **Acknowledgments:** Mention any collaborators, funding sources, or institutions that supported the research.
