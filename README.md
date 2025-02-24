@@ -26,12 +26,22 @@ This repository contains code and data files associated with the research using 
 -lnMEP: natural log-transformed MEP value
 
 ### 3. Processed Summary Data
-- **Description:** Explain how the raw data was processed and the resulting data file, which includes each subject's IO parameters and median MEP values pre and post cTBS.
-- **File Format:** Specify the file format and the structure of the data.
+`Subject_RMT_MEP final.xlsx` contains summarized data for each subject with columns: 
+-Subj_ID 
+
 
 ### 4. Processed Summary Data
-- **Description:** Explain how the raw data was processed and the resulting data file, which includes each subject's IO parameters and median MEP values pre and post cTBS.
-- **File Format:** Specify the file format and the structure of the data.
+`Subject_RMT_MEP final.xlsx` contains summarized data for each subject with columns: 
+-Subj_ID 
+-RMT: resting motor threshold
+-R^2: goodness of IO sigmoidal fit
+-MEPmax: maximum MEP amplitude obtained at upper plateau of IO curve
+-S50: Midpoint stimulation intensity where MEP amplitude is 50% of MEPmax
+-slope: of IO curve
+-MEPmin: minimum MEP amplitude obtained at lower plateau of IO curve
+-RMSE: of IO sigmoidal fit
+-MEP130RMT: median of 10 MEP amplitudes at 130% RMT
+-SE_: standard error of variable
 
 ---
 
