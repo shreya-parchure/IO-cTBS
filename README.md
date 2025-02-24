@@ -1,10 +1,9 @@
 # IO-cTBS
 
-## Project Overview
-Placeholder: brief description of your research project, including the goals, hypotheses, and any relevant background information.
-Notes (to-do) rename the folders/ re upload with comments and attribution to Zihang - as supplemental
-Refrence main code for IO LMEs and data files in the main directory here
+## Supplement to Paper: Predicting Neuroplasticity Effects of Continuous Theta Burst Stimulation with Biomarkers from the Motor Evoked Potential TMS Input-Output Curve
+It is known that individual responses to repetitive transcranial magnetic stimulation (rTMS) protocols, such as continuous theta burst stimulation (cTBS), vary considerably. The field of neuromodulation has long grappled with the challenge of predicting individual responses to brain stimulation techniques, which is necessary for consistent application with high response rates. Our study addresses this gap by investigating motor evoked potential (MEP) input-output (IO) parameters as predictors for cTBS response. We compute specific parameters of the IO curve and show they can reliably predict motor cortex responses to cTBS. This research holds significant potential for optimizing diagnostic and therapeutic uses of rTMS, and extending such methods to enhance the overall efficacy and precision of brain stimulation techniques more broadly.
 
+This repository contains code and data files associated with the research using TMS-MEP IO curves to predict cTBS responses.
 ---
 
 ## Data Files
