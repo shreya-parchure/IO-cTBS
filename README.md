@@ -8,14 +8,28 @@ This repository contains code and data files associated with the research using 
 
 ## Data Files
 ### 1. TMS-MEP Input-Output Data
-- **Description:** Describe the type of data collected, including the methods used to acquire TMS-MEP input-output data, the subject details, and any relevant parameters or conditions.
-- **File Format:** Specify the file format (e.g., .csv, .xlsx) and the structure of the data (e.g., columns, data types).
+`IO MEPs DataLong raw.xlsx` contains pre-processed data with columns: 
+-Subj_ID 
+-Frame: the trial number for MEPs
+-raw_MEP: the peak to peak amplitude from electromyography in mV
+-raw_Intensity: the TMS stimulator intensity setting
+-%RMT: the TMS stimulator normalized to individual RMT, expressed as a percentage
 
 ### 2. Pre and Post cTBS MEPs
-- **Description:** Describe the pre and post cTBS MEP data, including the experimental design, the conditions under which the data was collected, and any relevant parameters.
-- **File Format:** Specify the file format and the structure of the data.
+`MEP DataLong for LMEs.xlsx` contains pre-processed data with columns: 
+-Subj_ID 
+-Time: Baseline, or Post-cTBS in minutes (0, 10, 20, or 30)
+-Trail: the trial number for MEPs
+-%RMT: the TMS stimulator normalized to individual RMT, expressed as a percentage
+-MSO: the TMS stimulator intensity setting
+-MEP: the peak to peak amplitude from electromyography in mV
+-lnMEP: natural log-transformed MEP value
 
 ### 3. Processed Summary Data
+- **Description:** Explain how the raw data was processed and the resulting data file, which includes each subject's IO parameters and median MEP values pre and post cTBS.
+- **File Format:** Specify the file format and the structure of the data.
+
+### 4. Processed Summary Data
 - **Description:** Explain how the raw data was processed and the resulting data file, which includes each subject's IO parameters and median MEP values pre and post cTBS.
 - **File Format:** Specify the file format and the structure of the data.
 
